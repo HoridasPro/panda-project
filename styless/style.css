@@ -23,6 +23,9 @@
 .display{
   display: flex;
 }
+header{
+  margin-bottom: 50px;
+}
 .navbar{
   justify-content: space-between;
   align-items: center;
@@ -86,13 +89,13 @@
 
  /* Categories Section Design */
  .categories{
-  margin-bottom: 20px;
-  padding: 0 35px;
+  margin-bottom: 50px;
+  padding: 0 30px;
  }
  .category_h3{
   font-size: 36px;
   font-weight: 600;
-  
+  margin-bottom: 20px;
  }
  .category_h1{
   font-size: 36px;
@@ -109,8 +112,10 @@
   rgb(255, 208,25) 84.489%
   );
   justify-content: space-around;
+  /* gap: 20px; */
   align-items: center;
   padding: 10px 20px;
+  margin: 0 5px;
   border-radius: 10px;
  }
  .item1{
@@ -141,6 +146,7 @@
  .shoes_h3{
   font-size: 30px;
   font-weight: 600;
+  margin-bottom: 20px;
  }
  .shoe{
   padding: 20px;
