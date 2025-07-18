@@ -87,7 +87,7 @@
  /* Categories Section Design */
  .categories{
   margin-bottom: 20px;
-  padding: 0 20px;
+  padding: 0 35px;
  }
  .category_h3{
   font-size: 36px;
@@ -133,3 +133,51 @@
   height: 90px;
  } 
  
+ /* Shoes Section Style */
+ .shoes_section{
+  margin-bottom: 50px;
+  padding: 0 35px;
+ }
+ .shoes_h3{
+  font-size: 30px;
+  font-weight: 600;
+ }
+ .shoe{
+  padding: 20px;
+   box-shadow: 0 0 10px 0.9px;
+   border-radius: 20px;
+ }
+ .shoes_item{
+  justify-content: center;
+  gap: 20px;
+ }
+ .shoe img{
+  height: 120px;
+  width: 300px;
+ }
+ .shoes_h4{
+  font-size: 24px;
+  font-weight: 600px;
+ }
+ .shoes_p{
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+ }
+ .shoes_span{
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+ }
+ .shoe_button{
+  background-color: #000000;
+  font-weight: 6000;
+  color: #fff;
+  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+ }
